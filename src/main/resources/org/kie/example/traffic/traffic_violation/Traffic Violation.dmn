@@ -67,7 +67,7 @@
       <dmn:output id="_85FD9988-5D07-4F7C-8134-9467090203F7" name="Points" typeRef="number"/>
       <dmn:rule id="_4C3BF422-88D3-463D-A575-4C9F67D0A615">
         <dmn:inputEntry id="_0B181533-7565-4937-BEDE-C39217A7F13D">
-          <dmn:text>[10..30]</dmn:text>
+          <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_1CFCB074-4645-4B2A-A102-75873EA67FC4">
           <dmn:text>"speed"</dmn:text>
@@ -81,7 +81,7 @@
       </dmn:rule>
       <dmn:rule id="_BE10CD76-D1BE-483E-97A5-9F48E42A9BC3">
         <dmn:inputEntry id="_E1E25DC4-170C-4FA9-B42B-C85178C278EE">
-          <dmn:text>&lt;=30</dmn:text>
+          <dmn:text>&gt;= 30</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_8F78B1EE-919E-4669-9F99-9FDB3633E9DD">
           <dmn:text>"speed"</dmn:text>
@@ -163,7 +163,7 @@
           <kie:ComponentWidths dmnElementRef="_546624A9-D4D4-4BB8-A20D-D365C360DB6E">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
+            <kie:width>278.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
